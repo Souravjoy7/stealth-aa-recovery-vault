@@ -1,0 +1,16 @@
+{
+  "name": "stealth-aa-recovery-vault",
+  "version": "1.0.0",
+  "description": "ERC-4337-inspired smart account vault with stealth guardian recovery, session keys, and sponsored gas policy controls.",
+  "license": "MIT",
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "coverage": "hardhat coverage"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "hardhat": "^2.22.19",
+    "solidity-coverage": "^0.8.14"
+  }
+}
