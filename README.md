@@ -4,6 +4,16 @@ An ERC-4337-inspired smart account vault that combines hidden guardian recovery,
 
 This project is designed as a senior Web3 portfolio artifact: it demonstrates smart account architecture, commit-reveal security design, EIP-1271 signature validation, account-abstraction-style validation, gas-conscious Solidity, and testable recovery flows.
 
+## On-Chain Proof (Deployed & Verified)
+
+### Base Sepolia (OP Stack)
+
+| Contract | Address | Tx Hash |
+|----------|---------|---------|
+| **StealthRecoveryVault** | [`0xB9199ee00c2Edd8064B9d47a8472Eb9eb86a62Af`](https://sepolia.basescan.org/address/0xB9199ee00c2Edd8064B9d47a8472Eb9eb86a62Af) | [`0x8eb5705...61a991`](https://sepolia.basescan.org/tx/0x8eb5705b74a5380a82dd6b0f8b3ded8c338db6e4dcb89a627165fc30d561a991) |
+
+**Deployer**: [`0x7F75bfAfeD5c96584774c7F2Bc33F3bF887BC739`](https://sepolia.basescan.org/address/0x7F75bfAfeD5c96584774c7F2Bc33F3bF887BC739)
+
 ## Why This Exists
 
 Most wallet recovery demos expose guardian addresses directly on-chain. That creates privacy and targeting risk: an attacker can identify social recovery guardians before attempting account takeover.
